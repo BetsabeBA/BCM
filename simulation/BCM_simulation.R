@@ -33,7 +33,7 @@ x0_true <- theta[3]
 link    <- "logit"
 n       <- 5
 k       <- 3
-trials  <- 50
+trials  <- 500
 seedNum <- 1   # seedNum= 1 for k=3, and seedNum=2 for k=10
 
 set.seed(10000 + seedNum)
